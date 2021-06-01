@@ -7,20 +7,21 @@ Per i numeri che sono sia multipli di 3 che di 5 stampi FizzBuzz.
 
 var output = document.getElementById('number');
 
-for(var x = 1; x <= 100 ; x++){
-  if(x % 3 === 0 && x % 5 === 0){
+for (var x = 1; x < 100 ; x++) {
+  if (x % 3 === 0 && x % 5 === 0){
     output.innerHTML += "<br/> FizzBuzz" ;
 
-} else if(x % 3 === 0){
+} else if (x % 3 === 0) {
     output.innerHTML += " <br/> Fizz";
 
-} else if(x % 5 === 0){
+} else if (x % 5 === 0) {
     output.innerHTML += "<br/> Buzz";
 
-} else{
+} else {
     output.innerHTML += "<br/>" + i;
 }
 }
+
 
 
 
