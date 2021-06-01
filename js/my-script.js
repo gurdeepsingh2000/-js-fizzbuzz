@@ -18,7 +18,7 @@ for (var x = 1; x < 100 ; x++) {
     output.innerHTML += "<br/> Buzz";
 
 } else {
-    output.innerHTML += "<br/>" + i;
+    output.innerHTML += "<br/>" + x;
 }
 }
 
